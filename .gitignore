@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.venv/
+
+# El arbol de salida se regenera en cada ejecucion; solo se versiona el informe,
+# que es uno de los entregables de la prueba.
+salida/*
+!salida/informes/

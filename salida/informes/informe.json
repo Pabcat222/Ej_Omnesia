@@ -1,0 +1,1550 @@
+{
+  "version_informe": "1.0",
+  "generado_en": "2026-07-21T10:10:10+00:00",
+  "resumen": {
+    "ficheros_leidos": 96,
+    "expedientes": 20,
+    "expedientes_completos": 18,
+    "expedientes_incompletos": 2,
+    "documentos_archivados": 83,
+    "ficheros_descartados": 13,
+    "avisos": 13,
+    "clientes": 8
+  },
+  "incidencias_por_motivo": {
+    "artefacto_sistema": 2,
+    "conflicto_cliente": 1,
+    "duplicado_exacto": 3,
+    "fichero_vacio": 1,
+    "mrn_invalido": 3,
+    "sin_estructura": 1,
+    "version_superada": 2
+  },
+  "expedientes": [
+    {
+      "mrn": "26ES0ZW5Y7YWB6HHBX",
+      "nif": "12898185S",
+      "cliente": "Aceites del Sur SL",
+      "estado": "COMPLETO",
+      "documentos_encontrados": [
+        "CERTORIGEN",
+        "DUA",
+        "FACTURA",
+        "PACKING",
+        "TRANSPORTE"
+      ],
+      "documentos_ausentes": {
+        "obligatorios": [],
+        "opcionales": []
+      },
+      "documentos": [
+        {
+          "origen": "CERTORIGEN_26ES0ZW5Y7YWB6HHBX_20260522_12898185S.txt",
+          "tipo": "CERTORIGEN",
+          "mrn": "26ES0ZW5Y7YWB6HHBX",
+          "nif": "12898185S",
+          "cliente": "Aceites del Sur SL",
+          "fecha": "2026-05-22",
+          "sha256": "a862b8697444fb2003eded5a555736d219ff2cbb60fe6efe7a68ee1bf33c4e01",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "DUA_26ES0ZW5Y7YWB6HHBX_20260522_12898185S.txt",
+          "tipo": "DUA",
+          "mrn": "26ES0ZW5Y7YWB6HHBX",
+          "nif": "12898185S",
+          "cliente": "Aceites del Sur SL",
+          "fecha": "2026-05-22",
+          "sha256": "1b32c15857995ac457ecabceff04e7203758718d783123668bbfa1cc42e2e1bf",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "factura_26ES0ZW5Y7YWB6HHBX_20260522_12898185S.txt",
+          "tipo": "FACTURA",
+          "mrn": "26ES0ZW5Y7YWB6HHBX",
+          "nif": "12898185S",
+          "cliente": "Aceites del Sur SL",
+          "fecha": "2026-05-22",
+          "sha256": "464f404d1020145258d8622dce0fe48dc3701ddb61cd532981af49f3c0415b0d",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "PACKING_26ES0ZW5Y7YWB6HHBX_20260522_12898185S.txt",
+          "tipo": "PACKING",
+          "mrn": "26ES0ZW5Y7YWB6HHBX",
+          "nif": "12898185S",
+          "cliente": "Aceites del Sur SL",
+          "fecha": "2026-05-22",
+          "sha256": "671893ed30b82f8f01b526f27c2f889c4ff381558ea97ddc7f0c8749045a68e2",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "TRANSPORTE_26ES0ZW5Y7YWB6HHBX_20260522_12898185S.txt",
+          "tipo": "TRANSPORTE",
+          "mrn": "26ES0ZW5Y7YWB6HHBX",
+          "nif": "12898185S",
+          "cliente": "Aceites del Sur SL",
+          "fecha": "2026-05-22",
+          "sha256": "90bc95b09dc4c7f0e12bf61b36568ab2a4746cf68c7ee06198e559fc7f8f0713",
+          "es_rectificacion": false,
+          "avisos": []
+        }
+      ],
+      "avisos": []
+    },
+    {
+      "mrn": "26ES13YWB77MXATXKP",
+      "nif": "75502037Y",
+      "cliente": "Quimicas Ebro SL",
+      "estado": "COMPLETO",
+      "documentos_encontrados": [
+        "DUA",
+        "FACTURA",
+        "PACKING",
+        "TRANSPORTE"
+      ],
+      "documentos_ausentes": {
+        "obligatorios": [],
+        "opcionales": [
+          "CERTORIGEN"
+        ]
+      },
+      "documentos": [
+        {
+          "origen": "DUA_26ES13YWB77MXATXKP_20260615_75502037Y.txt",
+          "tipo": "DUA",
+          "mrn": "26ES13YWB77MXATXKP",
+          "nif": "75502037Y",
+          "cliente": "Quimicas Ebro SL",
+          "fecha": "2026-06-15",
+          "sha256": "02dd9547d00de1c47cbaadbbd31ab689d9ed2297ca2a2cd4e2736a0eb804ab92",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "FACTURA_26ES13YWB77MXATXKP_20260615_75502037D.txt",
+          "tipo": "FACTURA",
+          "mrn": "26ES13YWB77MXATXKP",
+          "nif": "75502037Y",
+          "cliente": "Quimicas Ebro SL",
+          "fecha": "2026-06-15",
+          "sha256": "1218455dbacf80503ce84d2282539e0de808b11e4ac9da2dafd3e73df61ef378",
+          "es_rectificacion": false,
+          "avisos": [
+            {
+              "codigo": "NIF_CORREGIDO",
+              "detalle": "El NIF 75502037D tiene letra de control incorrecta; se normaliza a 75502037Y.",
+              "severidad": "advertencia"
+            }
+          ]
+        },
+        {
+          "origen": "PACKINGLIST_26ES13YWB77MXATXKP_20260615_75502037Y.txt",
+          "tipo": "PACKING",
+          "mrn": "26ES13YWB77MXATXKP",
+          "nif": "75502037Y",
+          "cliente": "Quimicas Ebro SL",
+          "fecha": "2026-06-15",
+          "sha256": "e8a0393d3689ee8b4bc14876373ce82b040c5cfeb93d71287cea1bfac7608fb2",
+          "es_rectificacion": false,
+          "avisos": [
+            {
+              "codigo": "ALIAS_TIPO",
+              "detalle": "El nombre usa el alias 'PACKINGLIST' para PACKING.",
+              "severidad": "info"
+            }
+          ]
+        },
+        {
+          "origen": "TRANSPORTE_26ES13YWB77MXATXKP_20260615_75502037Y.txt",
+          "tipo": "TRANSPORTE",
+          "mrn": "26ES13YWB77MXATXKP",
+          "nif": "75502037Y",
+          "cliente": "Quimicas Ebro SL",
+          "fecha": "2026-06-15",
+          "sha256": "2711ab5683424f6ab87c821a09472619bd33a73938e3a26efbde40a03e09275d",
+          "es_rectificacion": false,
+          "avisos": []
+        }
+      ],
+      "avisos": []
+    },
+    {
+      "mrn": "26ES1EX0NT21NTKJCJ",
+      "nif": "46490500W",
+      "cliente": "Frutas Levante SL",
+      "estado": "COMPLETO",
+      "documentos_encontrados": [
+        "CERTORIGEN",
+        "DUA",
+        "FACTURA",
+        "PACKING"
+      ],
+      "documentos_ausentes": {
+        "obligatorios": [],
+        "opcionales": [
+          "TRANSPORTE"
+        ]
+      },
+      "documentos": [
+        {
+          "origen": "CERTORIGEN_26ES1EX0NT21NTKJCJ_20260409_46490500W.txt",
+          "tipo": "CERTORIGEN",
+          "mrn": "26ES1EX0NT21NTKJCJ",
+          "nif": "46490500W",
+          "cliente": "Frutas Levante SL",
+          "fecha": "2026-04-09",
+          "sha256": "fd3efa71b530dadc75b9fdac1bbb12b57e649be1c10c3c74ac024baf272dd59a",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "DUA_26ES1EX0NT21NTKJCJ_09-04-2026_46490500W.txt",
+          "tipo": "DUA",
+          "mrn": "26ES1EX0NT21NTKJCJ",
+          "nif": "46490500W",
+          "cliente": "Frutas Levante SL",
+          "fecha": "2026-04-09",
+          "sha256": "22073d34355d014b085b4b00e3c413402144cd2bf4a54fd2938c7d179ccfc215",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "FACTURA_26ES1EX0NT21NTKJCJ_20260409_46490500W.txt",
+          "tipo": "FACTURA",
+          "mrn": "26ES1EX0NT21NTKJCJ",
+          "nif": "46490500W",
+          "cliente": "Frutas Levante SL",
+          "fecha": "2026-04-09",
+          "sha256": "fb1f8928528a5bfc4689ae77977e602c100321a227ef82cdbadcaee9298cb17e",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "PACKING_26ES1EX0NT21NTKJCJ_20260409_46490500W.txt",
+          "tipo": "PACKING",
+          "mrn": "26ES1EX0NT21NTKJCJ",
+          "nif": "46490500W",
+          "cliente": "Frutas Levante SL",
+          "fecha": "2026-04-09",
+          "sha256": "989d32e82486e218d3ea958caf6c995014cc03c9a49c56d3fd872fd0f2a73c3b",
+          "es_rectificacion": false,
+          "avisos": []
+        }
+      ],
+      "avisos": []
+    },
+    {
+      "mrn": "26ES1XMXPFFDZN97KD",
+      "nif": "12898185S",
+      "cliente": "Aceites del Sur SL",
+      "estado": "COMPLETO",
+      "documentos_encontrados": [
+        "DUA",
+        "FACTURA",
+        "PACKING",
+        "TRANSPORTE"
+      ],
+      "documentos_ausentes": {
+        "obligatorios": [],
+        "opcionales": [
+          "CERTORIGEN"
+        ]
+      },
+      "documentos": [
+        {
+          "origen": "DUA_26ES1XMXPFFDZN97KD_20260521_12898185S (1).txt",
+          "tipo": "DUA",
+          "mrn": "26ES1XMXPFFDZN97KD",
+          "nif": "12898185S",
+          "cliente": "Aceites del Sur SL",
+          "fecha": "2026-05-21",
+          "sha256": "3131e73a89a3861ca941d36f518f46c5e006c0330499021df35d5963b5ec98c5",
+          "es_rectificacion": true,
+          "avisos": [
+            {
+              "codigo": "RECTIFICACION_APLICADA",
+              "detalle": "Sustituye a DUA_26ES1XMXPFFDZN97KD_20260521_12898185S.txt.",
+              "severidad": "advertencia"
+            }
+          ]
+        },
+        {
+          "origen": "FRA_26ES1XMXPFFDZN97KD_20260521_12898185S.txt",
+          "tipo": "FACTURA",
+          "mrn": "26ES1XMXPFFDZN97KD",
+          "nif": "12898185S",
+          "cliente": "Aceites del Sur SL",
+          "fecha": "2026-05-21",
+          "sha256": "a9e73bc4cb11c395b0bedc1244229dcfea87e05f09781b0353e136d20da9e0c2",
+          "es_rectificacion": false,
+          "avisos": [
+            {
+              "codigo": "ALIAS_TIPO",
+              "detalle": "El nombre usa el alias 'FRA' para FACTURA.",
+              "severidad": "info"
+            }
+          ]
+        },
+        {
+          "origen": "PACKING_26ES1XMXPFFDZN97KD_20260521_12898185S.txt",
+          "tipo": "PACKING",
+          "mrn": "26ES1XMXPFFDZN97KD",
+          "nif": "12898185S",
+          "cliente": "Aceites del Sur SL",
+          "fecha": "2026-05-21",
+          "sha256": "e078c85fab3165bffaf3dce551f8919d1d3e7fe9104ee712b3bf4a57c8504150",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "TRANSPORTE_26ES1XMXPFFDZN97KD_20260230_12898185S.txt",
+          "tipo": "TRANSPORTE",
+          "mrn": "26ES1XMXPFFDZN97KD",
+          "nif": "12898185S",
+          "cliente": "Aceites del Sur SL",
+          "fecha": null,
+          "sha256": "4178d2ed565969b77c17f33be5f04c9039947f7ae5b70127fa08209705d2448a",
+          "es_rectificacion": false,
+          "avisos": [
+            {
+              "codigo": "FECHA_INVALIDA",
+              "detalle": "La fecha '2026-02-30' no corresponde a un dia real; el documento se clasifica igualmente.",
+              "severidad": "advertencia"
+            }
+          ]
+        }
+      ],
+      "avisos": []
+    },
+    {
+      "mrn": "26ES26FUALY9PLRV38",
+      "nif": "55464039E",
+      "cliente": "Vinos Rioja Export SA",
+      "estado": "COMPLETO",
+      "documentos_encontrados": [
+        "CERTORIGEN",
+        "DUA",
+        "FACTURA",
+        "PACKING",
+        "TRANSPORTE"
+      ],
+      "documentos_ausentes": {
+        "obligatorios": [],
+        "opcionales": []
+      },
+      "documentos": [
+        {
+          "origen": "CERTORIGEN_26ES26FUALY9PLRV38_20260412_55464039E.txt",
+          "tipo": "CERTORIGEN",
+          "mrn": "26ES26FUALY9PLRV38",
+          "nif": "55464039E",
+          "cliente": "Vinos Rioja Export SA",
+          "fecha": "2026-04-12",
+          "sha256": "ec805a87e3e1211fc981ebc3f084d8a05c922fe6a21bc66d793b3bc790ba9102",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "DUA_26ES26FUALY9PLRV38_20260412_55464039E.txt",
+          "tipo": "DUA",
+          "mrn": "26ES26FUALY9PLRV38",
+          "nif": "55464039E",
+          "cliente": "Vinos Rioja Export SA",
+          "fecha": "2026-04-12",
+          "sha256": "b608a389f33ebe7d90281d774ad2d639592d921979f73a924d91bc126abd9a1c",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "FACTURA_26ES26FUALY9PLRV38_20260412_55464039E.txt",
+          "tipo": "FACTURA",
+          "mrn": "26ES26FUALY9PLRV38",
+          "nif": "55464039E",
+          "cliente": "Vinos Rioja Export SA",
+          "fecha": "2026-04-12",
+          "sha256": "f9955dea183d149f1debbb350145ce659e9f07cc99e582e22fea1a0be52f3b85",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "PACKING_26ES26FUALY9PLRV38_20260412_55464039E.txt",
+          "tipo": "PACKING",
+          "mrn": "26ES26FUALY9PLRV38",
+          "nif": "55464039E",
+          "cliente": "Vinos Rioja Export SA",
+          "fecha": "2026-04-12",
+          "sha256": "80abaf4a95b7c4bb8c0a34c65ae3e9b0b4bfadbd1ef8e422cad36d5b08191c3c",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "TRANSPORTE_26ES26FUALY9PLRV38_20270115_55464039E.txt",
+          "tipo": "TRANSPORTE",
+          "mrn": "26ES26FUALY9PLRV38",
+          "nif": "55464039E",
+          "cliente": "Vinos Rioja Export SA",
+          "fecha": "2027-01-15",
+          "sha256": "6c3b930b25e50205ef035608d1c4dc02a319cc1158b72a6e9b2da03d798b9d6a",
+          "es_rectificacion": false,
+          "avisos": []
+        }
+      ],
+      "avisos": []
+    },
+    {
+      "mrn": "26ES57ED9UXZPP5XAB",
+      "nif": "50693756P",
+      "cliente": "Electro Import Iberia SL",
+      "estado": "COMPLETO",
+      "documentos_encontrados": [
+        "CERTORIGEN",
+        "DUA",
+        "FACTURA",
+        "PACKING"
+      ],
+      "documentos_ausentes": {
+        "obligatorios": [],
+        "opcionales": [
+          "TRANSPORTE"
+        ]
+      },
+      "documentos": [
+        {
+          "origen": "CERTORIGEN_26ES57ED9UXZPP5XAB_2026-04-01_50693756P.txt",
+          "tipo": "CERTORIGEN",
+          "mrn": "26ES57ED9UXZPP5XAB",
+          "nif": "50693756P",
+          "cliente": "Electro Import Iberia SL",
+          "fecha": "2026-04-01",
+          "sha256": "43eb73c3edcd3478571270561531c4c45112243c75bef93d9ff7e3f74f3ba67b",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "DUA_26ES57ED9UXZPP5XAB_20260401_50693756P.txt",
+          "tipo": "DUA",
+          "mrn": "26ES57ED9UXZPP5XAB",
+          "nif": "50693756P",
+          "cliente": "Electro Import Iberia SL",
+          "fecha": "2026-04-01",
+          "sha256": "ead6d3ca4b5c4dffb64d2ea750c13baecbeb5ffeb5ab510a2cc03004c1ec9eff",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "FACTURA_26ES57ED9UXZPP5XAB_20260401_50693756P.txt",
+          "tipo": "FACTURA",
+          "mrn": "26ES57ED9UXZPP5XAB",
+          "nif": "50693756P",
+          "cliente": "Electro Import Iberia SL",
+          "fecha": "2026-04-01",
+          "sha256": "a9b0ef7245f05168e495655a30d8e6e75c02bfff61fc70857b2df932a24c0523",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "PACKING_26ES57ED9UXZPP5XAB_20260401_50693756P.txt",
+          "tipo": "PACKING",
+          "mrn": "26ES57ED9UXZPP5XAB",
+          "nif": "50693756P",
+          "cliente": "Electro Import Iberia SL",
+          "fecha": "2026-04-01",
+          "sha256": "2dada7839193f418b654169034a08cfd362f697f0f7db313e8229ce498d24f7b",
+          "es_rectificacion": false,
+          "avisos": []
+        }
+      ],
+      "avisos": []
+    },
+    {
+      "mrn": "26ES5G587C1R2WG98T",
+      "nif": "66061562L",
+      "cliente": "Textil Manresa SA",
+      "estado": "COMPLETO",
+      "documentos_encontrados": [
+        "CERTORIGEN",
+        "DUA",
+        "FACTURA",
+        "PACKING",
+        "TRANSPORTE"
+      ],
+      "documentos_ausentes": {
+        "obligatorios": [],
+        "opcionales": []
+      },
+      "documentos": [
+        {
+          "origen": "CERTORIGEN_26ES5G587C1R2WG98T_2026-01-10_66061562L.txt",
+          "tipo": "CERTORIGEN",
+          "mrn": "26ES5G587C1R2WG98T",
+          "nif": "66061562L",
+          "cliente": "Textil Manresa SA",
+          "fecha": "2026-01-10",
+          "sha256": "5798864971774cb5c1acccd87eb3f275fe18173db710a7f114c718b889cce9ab",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "DUA_26ES5G587C1R2WG98T_20260110_66061562L.txt",
+          "tipo": "DUA",
+          "mrn": "26ES5G587C1R2WG98T",
+          "nif": "66061562L",
+          "cliente": "Textil Manresa SA",
+          "fecha": "2026-01-10",
+          "sha256": "165a78a230d5bf759f789c648dcfd5e6ecba3209e4f16c46ba90f1f15f869b63",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "FACTURA_26ES5G587C1R2WG98T_20260110_66061562L.txt",
+          "tipo": "FACTURA",
+          "mrn": "26ES5G587C1R2WG98T",
+          "nif": "66061562L",
+          "cliente": "Textil Manresa SA",
+          "fecha": "2026-01-10",
+          "sha256": "10f3eb1033426d667f505643b2cd1fb5672c8d26b94a09be93e4fd727cfae094",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "PLIST_26ES5G587C1R2WG98T_20260110_66061562L.txt",
+          "tipo": "PACKING",
+          "mrn": "26ES5G587C1R2WG98T",
+          "nif": "66061562L",
+          "cliente": "Textil Manresa SA",
+          "fecha": "2026-01-10",
+          "sha256": "fa07219613632135dd02ca71891424f472dde4a00298793dcdd4725c5f4c6e15",
+          "es_rectificacion": false,
+          "avisos": [
+            {
+              "codigo": "ALIAS_TIPO",
+              "detalle": "El nombre usa el alias 'PLIST' para PACKING.",
+              "severidad": "info"
+            }
+          ]
+        },
+        {
+          "origen": "TRANSPORTE_26ES5G587C1R2WG98T_20260110_66061562L.txt",
+          "tipo": "TRANSPORTE",
+          "mrn": "26ES5G587C1R2WG98T",
+          "nif": "66061562L",
+          "cliente": "Textil Manresa SA",
+          "fecha": "2026-01-10",
+          "sha256": "5a98e0d9f743b552c38642fcaffc46f98f552c6c65a41d5090dab9c95b9f3868",
+          "es_rectificacion": false,
+          "avisos": []
+        }
+      ],
+      "avisos": []
+    },
+    {
+      "mrn": "26ES6YUREB0VGFKKS9",
+      "nif": "55464039E",
+      "cliente": "Vinos Rioja Export SA",
+      "estado": "COMPLETO",
+      "documentos_encontrados": [
+        "CERTORIGEN",
+        "DUA",
+        "FACTURA",
+        "PACKING",
+        "TRANSPORTE"
+      ],
+      "documentos_ausentes": {
+        "obligatorios": [],
+        "opcionales": []
+      },
+      "documentos": [
+        {
+          "origen": "CERTORIGEN_26ES6YUREB0VGFKKS9_20260605_55464039E.txt",
+          "tipo": "CERTORIGEN",
+          "mrn": "26ES6YUREB0VGFKKS9",
+          "nif": "55464039E",
+          "cliente": "Vinos Rioja Export SA",
+          "fecha": "2026-06-05",
+          "sha256": "222a69af1130551815101666cb62279f50a4edab48f5d27dd882a18b71fa85dc",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "DUA_26ES6YUREB0VGFKKS9_20260605_55464039R.txt",
+          "tipo": "DUA",
+          "mrn": "26ES6YUREB0VGFKKS9",
+          "nif": "55464039E",
+          "cliente": "Vinos Rioja Export SA",
+          "fecha": "2026-06-05",
+          "sha256": "69a0be9be09e0c43ca0e781d1a0ee629955196768c5e62284c36e858cb3de40f",
+          "es_rectificacion": false,
+          "avisos": [
+            {
+              "codigo": "NIF_CORREGIDO",
+              "detalle": "El NIF 55464039R tiene letra de control incorrecta; se normaliza a 55464039E.",
+              "severidad": "advertencia"
+            }
+          ]
+        },
+        {
+          "origen": "factura_26ES6YUREB0VGFKKS9_20260605_55464039E.txt",
+          "tipo": "FACTURA",
+          "mrn": "26ES6YUREB0VGFKKS9",
+          "nif": "55464039E",
+          "cliente": "Vinos Rioja Export SA",
+          "fecha": "2026-06-05",
+          "sha256": "08e968e2d858bb7da89d51bbc17aedea23bb51696b979d64abe93564dec9edbf",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "PACKING_26ES6YUREB0VGFKKS9_20260605_55464039E.txt",
+          "tipo": "PACKING",
+          "mrn": "26ES6YUREB0VGFKKS9",
+          "nif": "55464039E",
+          "cliente": "Vinos Rioja Export SA",
+          "fecha": "2026-06-05",
+          "sha256": "a33524521e39a9d9295e9dd844e13e3f4602bae1f9656000423d2ac51015cb90",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "TRANSPORTE_26ES6YUREB0VGFKKS9_20260605_55464039E.txt",
+          "tipo": "TRANSPORTE",
+          "mrn": "26ES6YUREB0VGFKKS9",
+          "nif": "55464039E",
+          "cliente": "Vinos Rioja Export SA",
+          "fecha": "2026-06-05",
+          "sha256": "08361b43a15a2f8b1a755bfd966c94cb33d8ca040146e72202913e4a26455726",
+          "es_rectificacion": false,
+          "avisos": []
+        }
+      ],
+      "avisos": []
+    },
+    {
+      "mrn": "26ESA70XSGJHX8HA9W",
+      "nif": "20989659C",
+      "cliente": "Maderas Soria SL",
+      "estado": "COMPLETO",
+      "documentos_encontrados": [
+        "DUA",
+        "FACTURA",
+        "PACKING",
+        "TRANSPORTE"
+      ],
+      "documentos_ausentes": {
+        "obligatorios": [],
+        "opcionales": [
+          "CERTORIGEN"
+        ]
+      },
+      "documentos": [
+        {
+          "origen": "DUA_26ESA70XSGJHX8HA9W_20260131_20989659W.txt",
+          "tipo": "DUA",
+          "mrn": "26ESA70XSGJHX8HA9W",
+          "nif": "20989659C",
+          "cliente": "Maderas Soria SL",
+          "fecha": "2026-01-31",
+          "sha256": "15e3a2c418fb6863703d30ceac71c2acd9b78d5c097eb246644daa25d428d825",
+          "es_rectificacion": false,
+          "avisos": [
+            {
+              "codigo": "NIF_CORREGIDO",
+              "detalle": "El NIF 20989659W tiene letra de control incorrecta; se normaliza a 20989659C.",
+              "severidad": "advertencia"
+            }
+          ]
+        },
+        {
+          "origen": "FACTURA_26ESA70XSGJHX8HA9W_20260131_20989659C.txt",
+          "tipo": "FACTURA",
+          "mrn": "26ESA70XSGJHX8HA9W",
+          "nif": "20989659C",
+          "cliente": "Maderas Soria SL",
+          "fecha": "2026-01-31",
+          "sha256": "5f3af718a81d7cb2331bfc9fefb773a3c041d364e735bd4757326b25df848776",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "PACKING_26ESA70XSGJHX8HA9W_20260131_20989659C.txt",
+          "tipo": "PACKING",
+          "mrn": "26ESA70XSGJHX8HA9W",
+          "nif": "20989659C",
+          "cliente": "Maderas Soria SL",
+          "fecha": "2026-01-31",
+          "sha256": "9a850c41d028e8938373678adccf61741120329610014a6679c994fa884a8302",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "TRANSPORTE_26ESA70XSGJHX8HA9W_20260131_20989659C.txt",
+          "tipo": "TRANSPORTE",
+          "mrn": "26ESA70XSGJHX8HA9W",
+          "nif": "20989659C",
+          "cliente": "Maderas Soria SL",
+          "fecha": "2026-01-31",
+          "sha256": "c750529278aad2b9c6dd48dbecc3f992f1e9f384e5621d8347347deef262f272",
+          "es_rectificacion": false,
+          "avisos": []
+        }
+      ],
+      "avisos": []
+    },
+    {
+      "mrn": "26ESDX26CENWCZ1R5N",
+      "nif": "50693756P",
+      "cliente": "Electro Import Iberia SL",
+      "estado": "COMPLETO",
+      "documentos_encontrados": [
+        "CERTORIGEN",
+        "DUA",
+        "FACTURA",
+        "PACKING"
+      ],
+      "documentos_ausentes": {
+        "obligatorios": [],
+        "opcionales": [
+          "TRANSPORTE"
+        ]
+      },
+      "documentos": [
+        {
+          "origen": "CERTORIGEN_26ESDX26CENWCZ1R5N_20260507_50693756P.txt",
+          "tipo": "CERTORIGEN",
+          "mrn": "26ESDX26CENWCZ1R5N",
+          "nif": "50693756P",
+          "cliente": "Electro Import Iberia SL",
+          "fecha": "2026-05-07",
+          "sha256": "fe2c7828cd05f10a73e1f3876164313d1667c99131e2f7426a97219a24d3d975",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "DUA_26ESDX26CENWCZ1R5N_20260507_50693756P.txt",
+          "tipo": "DUA",
+          "mrn": "26ESDX26CENWCZ1R5N",
+          "nif": "50693756P",
+          "cliente": "Electro Import Iberia SL",
+          "fecha": "2026-05-07",
+          "sha256": "ad18b22818cb04aa866a6359427fbdf35fc574dbcb46a6cfe823571fe1331f9a",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "FACTURA_26ESDX26CENWCZ1R5N_20260507_50693756P.txt",
+          "tipo": "FACTURA",
+          "mrn": "26ESDX26CENWCZ1R5N",
+          "nif": "50693756P",
+          "cliente": "Electro Import Iberia SL",
+          "fecha": "2026-05-07",
+          "sha256": "ab9170a19395eb48700305a933fca09feada26080e7352bf10f0d7e0f1dbc3ab",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "PACKING_26ESDX26CENWCZ1R5N_20260507_50693756P.txt",
+          "tipo": "PACKING",
+          "mrn": "26ESDX26CENWCZ1R5N",
+          "nif": "50693756P",
+          "cliente": "Electro Import Iberia SL",
+          "fecha": "2026-05-07",
+          "sha256": "e0531f86f23fc2aeb5c8d05710999267a255b4679e128604a885b467de9b3a33",
+          "es_rectificacion": false,
+          "avisos": []
+        }
+      ],
+      "avisos": [
+        {
+          "codigo": "TITULAR_POR_DUA",
+          "detalle": "Documentos con 2 NIF distintos; el titular se fija por el DUA (50693756P).",
+          "severidad": "advertencia"
+        }
+      ]
+    },
+    {
+      "mrn": "26ESEBBLM0LPAL207U",
+      "nif": "66061562L",
+      "cliente": "Textil Manresa SA",
+      "estado": "COMPLETO",
+      "documentos_encontrados": [
+        "CERTORIGEN",
+        "DUA",
+        "FACTURA",
+        "PACKING",
+        "TRANSPORTE"
+      ],
+      "documentos_ausentes": {
+        "obligatorios": [],
+        "opcionales": []
+      },
+      "documentos": [
+        {
+          "origen": "CERTORIGEN_26ESEBBLM0LPAL207U_20260419_66061562L.txt",
+          "tipo": "CERTORIGEN",
+          "mrn": "26ESEBBLM0LPAL207U",
+          "nif": "66061562L",
+          "cliente": "Textil Manresa SA",
+          "fecha": "2026-04-19",
+          "sha256": "a9727ce08523af2e8e7bc2edfa87730a9dbf0f62161f73b92e463a3e8df1a625",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "DUA_26ESEBBLM0LPAL207U_19-04-2026_66061562L.txt",
+          "tipo": "DUA",
+          "mrn": "26ESEBBLM0LPAL207U",
+          "nif": "66061562L",
+          "cliente": "Textil Manresa SA",
+          "fecha": "2026-04-19",
+          "sha256": "d42c8f5914023440bb0aa0fa39b29e1efa6f72030a240aa7419cdbec36f4e1dd",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "FACTURA_26ESEBBLM0LPAL207U_20260419_66061562L.txt",
+          "tipo": "FACTURA",
+          "mrn": "26ESEBBLM0LPAL207U",
+          "nif": "66061562L",
+          "cliente": "Textil Manresa SA",
+          "fecha": "2026-04-19",
+          "sha256": "5e9e6d872caa1987c7b5c32bc80b56da7a5702b113f8e826268b290db320c69b",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "PACKING_26ESEBBLM0LPAL207U_20260419_66061562L.txt",
+          "tipo": "PACKING",
+          "mrn": "26ESEBBLM0LPAL207U",
+          "nif": "66061562L",
+          "cliente": "Textil Manresa SA",
+          "fecha": "2026-04-19",
+          "sha256": "5b97c6c4f9e04c7f75e8a80dc6884ba3c06ebeb5aa5eab567684533af04c73e4",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "TRANSPORTE_26ESEBBLM0LPAL207U_20260419_66061562L.txt",
+          "tipo": "TRANSPORTE",
+          "mrn": "26ESEBBLM0LPAL207U",
+          "nif": "66061562L",
+          "cliente": "Textil Manresa SA",
+          "fecha": "2026-04-19",
+          "sha256": "d28b061665f15f92712610ba67e3f501a07f50679432438bd365fbd987caafb8",
+          "es_rectificacion": false,
+          "avisos": []
+        }
+      ],
+      "avisos": []
+    },
+    {
+      "mrn": "26ESHGDBTXVL72JJAP",
+      "nif": "44582623K",
+      "cliente": "Congelados Atlantico SA",
+      "estado": "COMPLETO",
+      "documentos_encontrados": [
+        "CERTORIGEN",
+        "DUA",
+        "FACTURA",
+        "PACKING"
+      ],
+      "documentos_ausentes": {
+        "obligatorios": [],
+        "opcionales": [
+          "TRANSPORTE"
+        ]
+      },
+      "documentos": [
+        {
+          "origen": "CERTIFICADO ORIGEN_26ESHGDBTXVL72JJAP_20260412_44582623K.txt",
+          "tipo": "CERTORIGEN",
+          "mrn": "26ESHGDBTXVL72JJAP",
+          "nif": "44582623K",
+          "cliente": "Congelados Atlantico SA",
+          "fecha": "2026-04-12",
+          "sha256": "1233e409e3261b2c8e37e0ed03dd19f7e60305a2690ce8e71c9987174fc11262",
+          "es_rectificacion": false,
+          "avisos": [
+            {
+              "codigo": "ALIAS_TIPO",
+              "detalle": "El nombre usa el alias 'CERTIFICADO ORIGEN' para CERTORIGEN.",
+              "severidad": "info"
+            }
+          ]
+        },
+        {
+          "origen": "DUA_26ESHGDBTXVL72JJAP_20260412_44582623K.txt",
+          "tipo": "DUA",
+          "mrn": "26ESHGDBTXVL72JJAP",
+          "nif": "44582623K",
+          "cliente": "Congelados Atlantico SA",
+          "fecha": "2026-04-12",
+          "sha256": "84c6a7695ac49b3bc6ca214ff437504c2b8485f7a4beca60dd7d2f219838a825",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "FACTURA_26ESHGDBTXVL72JJAP_20260412_44582623K.txt",
+          "tipo": "FACTURA",
+          "mrn": "26ESHGDBTXVL72JJAP",
+          "nif": "44582623K",
+          "cliente": "Congelados Atlantico SA",
+          "fecha": "2026-04-12",
+          "sha256": "b307cbaa93a3b291bd6e327d76fd2fb04794b6d713e60e53691c338473b1f9a4",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "PACKING_26ESHGDBTXVL72JJAP_20260412_44582623K.txt",
+          "tipo": "PACKING",
+          "mrn": "26ESHGDBTXVL72JJAP",
+          "nif": "44582623K",
+          "cliente": "Congelados Atlantico SA",
+          "fecha": "2026-04-12",
+          "sha256": "d2dd8cacd52d5bdb5455f4a4aaa88ef8d913429620a51967eba60abe336f4a7a",
+          "es_rectificacion": false,
+          "avisos": []
+        }
+      ],
+      "avisos": []
+    },
+    {
+      "mrn": "26ESMZCVNHP1ZW2PWD",
+      "nif": "66061562L",
+      "cliente": "Textil Manresa SA",
+      "estado": "COMPLETO",
+      "documentos_encontrados": [
+        "CERTORIGEN",
+        "DUA",
+        "FACTURA",
+        "PACKING"
+      ],
+      "documentos_ausentes": {
+        "obligatorios": [],
+        "opcionales": [
+          "TRANSPORTE"
+        ]
+      },
+      "documentos": [
+        {
+          "origen": "CERTORIGEN_26ESMZCVNHP1ZW2PWD_20260126_66061562L.txt",
+          "tipo": "CERTORIGEN",
+          "mrn": "26ESMZCVNHP1ZW2PWD",
+          "nif": "66061562L",
+          "cliente": "Textil Manresa SA",
+          "fecha": "2026-01-26",
+          "sha256": "bbf34facab831f0e4d48b428977387ddd2f1757c2dc722a34fd400d608cbfb91",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "DUA_26ESMZCVNHP1ZW2PWD_20260126_66061562L.txt",
+          "tipo": "DUA",
+          "mrn": "26ESMZCVNHP1ZW2PWD",
+          "nif": "66061562L",
+          "cliente": "Textil Manresa SA",
+          "fecha": "2026-01-26",
+          "sha256": "8238fa03652f48a7c38d279ba3990f40ce351ffa3f5b79a9d279bd35d3668816",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "FACTURA_26ESMZCVNHP1ZW2PWD_20260126_66061562L.txt",
+          "tipo": "FACTURA",
+          "mrn": "26ESMZCVNHP1ZW2PWD",
+          "nif": "66061562L",
+          "cliente": "Textil Manresa SA",
+          "fecha": "2026-01-26",
+          "sha256": "34841753ca3f587aa750cd39664ec1380f12f5dd63d47c7c61a898f424d46f2e",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "PACKING_26ESMZCVNHP1ZW2PWD_20260126_66061562L.txt",
+          "tipo": "PACKING",
+          "mrn": "26ESMZCVNHP1ZW2PWD",
+          "nif": "66061562L",
+          "cliente": "Textil Manresa SA",
+          "fecha": "2026-01-26",
+          "sha256": "5c52efb0546dfe4e5143afebef0f39fb42c146afc1404b91a9caa719b756e9a4",
+          "es_rectificacion": false,
+          "avisos": []
+        }
+      ],
+      "avisos": []
+    },
+    {
+      "mrn": "26ESSD385Y6CJ6F92R",
+      "nif": "46490500W",
+      "cliente": "Frutas Levante SL",
+      "estado": "COMPLETO",
+      "documentos_encontrados": [
+        "CERTORIGEN",
+        "DUA",
+        "FACTURA",
+        "PACKING",
+        "TRANSPORTE"
+      ],
+      "documentos_ausentes": {
+        "obligatorios": [],
+        "opcionales": []
+      },
+      "documentos": [
+        {
+          "origen": "CERTORIGEN_26ESSD385Y6CJ6F92R_20260123_46490500W.txt",
+          "tipo": "CERTORIGEN",
+          "mrn": "26ESSD385Y6CJ6F92R",
+          "nif": "46490500W",
+          "cliente": "Frutas Levante SL",
+          "fecha": "2026-01-23",
+          "sha256": "179ff847b46ed4f020f316ce9bf4956fb5dd2981558add6daaf0989a1d8eebd3",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "DUA_26ESSD385Y6CJ6F92R_20260123_46490500W.txt",
+          "tipo": "DUA",
+          "mrn": "26ESSD385Y6CJ6F92R",
+          "nif": "46490500W",
+          "cliente": "Frutas Levante SL",
+          "fecha": "2026-01-23",
+          "sha256": "1b33e7dd068107bfa4d6f328e42dbb0fe4e7e7373e3fd11ae911bbe109008d96",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "FACTURA_26ESSD385Y6CJ6F92R_20260123_46490500W (1).txt",
+          "tipo": "FACTURA",
+          "mrn": "26ESSD385Y6CJ6F92R",
+          "nif": "46490500W",
+          "cliente": "Frutas Levante SL",
+          "fecha": "2026-01-23",
+          "sha256": "3d9f120d8df5527a6083a4e34fbc26adc32feb057666da94a6da7d1bc8c8b1da",
+          "es_rectificacion": true,
+          "avisos": [
+            {
+              "codigo": "RECTIFICACION_APLICADA",
+              "detalle": "Sustituye a FACTURA_26ESSD385Y6CJ6F92R_20260123_46490500W.txt.",
+              "severidad": "advertencia"
+            }
+          ]
+        },
+        {
+          "origen": "PACKING_26ESSD385Y6CJ6F92R_20260123_46490500W.txt",
+          "tipo": "PACKING",
+          "mrn": "26ESSD385Y6CJ6F92R",
+          "nif": "46490500W",
+          "cliente": "Frutas Levante SL",
+          "fecha": "2026-01-23",
+          "sha256": "8277491b9a78af2f1e5a8313691ec7c36dde8fb925d69a49611e4cee2ab50bdd",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "TRANSPORTE_26ESSD385Y6CJ6F92R_20260123_46490500W.txt",
+          "tipo": "TRANSPORTE",
+          "mrn": "26ESSD385Y6CJ6F92R",
+          "nif": "46490500W",
+          "cliente": "Frutas Levante SL",
+          "fecha": "2026-01-23",
+          "sha256": "3b352999e98f6acf230659bb4e74295f7446d06890e3b4c96716b15d8e7eb19c",
+          "es_rectificacion": false,
+          "avisos": []
+        }
+      ],
+      "avisos": []
+    },
+    {
+      "mrn": "26ESSK12FXU518CW6M",
+      "nif": "20989659C",
+      "cliente": "Maderas Soria SL",
+      "estado": "COMPLETO",
+      "documentos_encontrados": [
+        "DUA",
+        "FACTURA",
+        "PACKING",
+        "TRANSPORTE"
+      ],
+      "documentos_ausentes": {
+        "obligatorios": [],
+        "opcionales": [
+          "CERTORIGEN"
+        ]
+      },
+      "documentos": [
+        {
+          "origen": "DUA_26ESSK12FXU518CW6M_20260206_20989659C.txt",
+          "tipo": "DUA",
+          "mrn": "26ESSK12FXU518CW6M",
+          "nif": "20989659C",
+          "cliente": "Maderas Soria SL",
+          "fecha": "2026-02-06",
+          "sha256": "9bb9b339cc245afe2736b33c3e7d67cb0e655eda3b4b9bfe8d378e97ca564d40",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "FACTURA_26ESSK12FXU518CW6M_20260206_20989659C.txt",
+          "tipo": "FACTURA",
+          "mrn": "26ESSK12FXU518CW6M",
+          "nif": "20989659C",
+          "cliente": "Maderas Soria SL",
+          "fecha": "2026-02-06",
+          "sha256": "adc9bf55cf1a9fb9eb7029da5ea6ddf84f056fc0e2c7eec6ed4d99db6add2fe8",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "PACKING_26ESSK12FXU518CW6M_20260206_20989659C.txt",
+          "tipo": "PACKING",
+          "mrn": "26ESSK12FXU518CW6M",
+          "nif": "20989659C",
+          "cliente": "Maderas Soria SL",
+          "fecha": "2026-02-06",
+          "sha256": "9565d065b856434b1c1dbda6081586a9110884876572a47a2bc54dcaadb3072d",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "TRANSPORTE_26ESSK12FXU518CW6M_20260206_20989659C.txt",
+          "tipo": "TRANSPORTE",
+          "mrn": "26ESSK12FXU518CW6M",
+          "nif": "20989659C",
+          "cliente": "Maderas Soria SL",
+          "fecha": "2026-02-06",
+          "sha256": "3e4e450f798b9b139ed0380ad724c2f79ae3ab7e268ce0e86fb6a00fd472a79e",
+          "es_rectificacion": false,
+          "avisos": []
+        }
+      ],
+      "avisos": []
+    },
+    {
+      "mrn": "26ESTZK6P9UDW63M0N",
+      "nif": "75502037Y",
+      "cliente": "Quimicas Ebro SL",
+      "estado": "INCOMPLETO",
+      "documentos_encontrados": [
+        "FACTURA",
+        "PACKING"
+      ],
+      "documentos_ausentes": {
+        "obligatorios": [
+          "DUA"
+        ],
+        "opcionales": [
+          "TRANSPORTE",
+          "CERTORIGEN"
+        ]
+      },
+      "documentos": [
+        {
+          "origen": "FACTURA_26ESTZK6P9UDW63M0N_20260406_75502037Y.txt",
+          "tipo": "FACTURA",
+          "mrn": "26ESTZK6P9UDW63M0N",
+          "nif": "75502037Y",
+          "cliente": "Quimicas Ebro SL",
+          "fecha": "2026-04-06",
+          "sha256": "20bf6285980b86244bbc1732267cb454a0b72dc678aaa37feea2a2004ea8fc41",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "PACKING_26ESTZK6P9UDW63M0N_20260406_75502037Y.txt",
+          "tipo": "PACKING",
+          "mrn": "26ESTZK6P9UDW63M0N",
+          "nif": "75502037Y",
+          "cliente": "Quimicas Ebro SL",
+          "fecha": "2026-04-06",
+          "sha256": "b0fa8537e22bf8e7c3d39f2adc5e182dc88dc31fbaa907b8ec7b35b265e0c122",
+          "es_rectificacion": false,
+          "avisos": []
+        }
+      ],
+      "avisos": []
+    },
+    {
+      "mrn": "26ESWVVCU6XUX2LFAK",
+      "nif": "44582623K",
+      "cliente": "Congelados Atlantico SA",
+      "estado": "COMPLETO",
+      "documentos_encontrados": [
+        "DUA",
+        "FACTURA",
+        "PACKING",
+        "TRANSPORTE"
+      ],
+      "documentos_ausentes": {
+        "obligatorios": [],
+        "opcionales": [
+          "CERTORIGEN"
+        ]
+      },
+      "documentos": [
+        {
+          "origen": "DUA_26ESWVVCU6XUX2LFAK_20260210_44582623K.txt",
+          "tipo": "DUA",
+          "mrn": "26ESWVVCU6XUX2LFAK",
+          "nif": "44582623K",
+          "cliente": "Congelados Atlantico SA",
+          "fecha": "2026-02-10",
+          "sha256": "42c8d172b6a7a448263f9d4440e9e35b150645ea02eca776b18b7d2c78d8ec9c",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "FACTURA_26ESWVVCU6XUX2LFAK_20260210_44582623K.txt",
+          "tipo": "FACTURA",
+          "mrn": "26ESWVVCU6XUX2LFAK",
+          "nif": "44582623K",
+          "cliente": "Congelados Atlantico SA",
+          "fecha": "2026-02-10",
+          "sha256": "c0ca115105057a0fbd685688e389f4ecca33b35a5482bfeef601d86b9823996a",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "PACKING_26ESWVVCU6XUX2LFAK_20260210_44582623K.txt",
+          "tipo": "PACKING",
+          "mrn": "26ESWVVCU6XUX2LFAK",
+          "nif": "44582623K",
+          "cliente": "Congelados Atlantico SA",
+          "fecha": "2026-02-10",
+          "sha256": "398e915946862668a4e654bff11c3574a4a9da95dc9ea992db0edf3c0e1e5fc0",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "TRANSPORTE_26ESWVVCU6XUX2LFAK_20260210_44582623K.txt",
+          "tipo": "TRANSPORTE",
+          "mrn": "26ESWVVCU6XUX2LFAK",
+          "nif": "44582623K",
+          "cliente": "Congelados Atlantico SA",
+          "fecha": "2026-02-10",
+          "sha256": "e45971f1bf2b5f15653dc4fbc2284935789e7a895e4982b1ff3ae5ed80a64087",
+          "es_rectificacion": false,
+          "avisos": []
+        }
+      ],
+      "avisos": []
+    },
+    {
+      "mrn": "26ESX3909YK5ZXEVMW",
+      "nif": "75502037Y",
+      "cliente": "Quimicas Ebro SL",
+      "estado": "COMPLETO",
+      "documentos_encontrados": [
+        "CERTORIGEN",
+        "DUA",
+        "FACTURA",
+        "PACKING",
+        "TRANSPORTE"
+      ],
+      "documentos_ausentes": {
+        "obligatorios": [],
+        "opcionales": []
+      },
+      "documentos": [
+        {
+          "origen": "CERTORIGEN_26ESX3909YK5ZXEVMW_20260208_75502037Y.txt",
+          "tipo": "CERTORIGEN",
+          "mrn": "26ESX3909YK5ZXEVMW",
+          "nif": "75502037Y",
+          "cliente": "Quimicas Ebro SL",
+          "fecha": "2026-02-08",
+          "sha256": "5341ebbe0917c1050bef21874c104b25c636e154bab433f6314c1bb0ce423182",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "DUA_26ESX3909YK5ZXEVMW_20260208_75502037Y.txt",
+          "tipo": "DUA",
+          "mrn": "26ESX3909YK5ZXEVMW",
+          "nif": "75502037Y",
+          "cliente": "Quimicas Ebro SL",
+          "fecha": "2026-02-08",
+          "sha256": "9d3da3d9a292f519fad9d6ee25f064c1a54cc781941bc6e6e57e983934ce90b1",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "FRA_26ESX3909YK5ZXEVMW_20260208_75502037Y.txt",
+          "tipo": "FACTURA",
+          "mrn": "26ESX3909YK5ZXEVMW",
+          "nif": "75502037Y",
+          "cliente": "Quimicas Ebro SL",
+          "fecha": "2026-02-08",
+          "sha256": "2cca75069b25818f94ec93f53bb80ef29573655729c04a2d3819a55520c62011",
+          "es_rectificacion": false,
+          "avisos": [
+            {
+              "codigo": "ALIAS_TIPO",
+              "detalle": "El nombre usa el alias 'FRA' para FACTURA.",
+              "severidad": "info"
+            }
+          ]
+        },
+        {
+          "origen": "PACKING_26ESX3909YK5ZXEVMW_20260208_75502037Y.txt",
+          "tipo": "PACKING",
+          "mrn": "26ESX3909YK5ZXEVMW",
+          "nif": "75502037Y",
+          "cliente": "Quimicas Ebro SL",
+          "fecha": "2026-02-08",
+          "sha256": "7a50db7c89f3c806a7c978efe01dc317bc5494b87d140fe2eb4c86832d90512a",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "TRANSPORTE_26ESX3909YK5ZXEVMW_20260208_75502037Y.txt",
+          "tipo": "TRANSPORTE",
+          "mrn": "26ESX3909YK5ZXEVMW",
+          "nif": "75502037Y",
+          "cliente": "Quimicas Ebro SL",
+          "fecha": "2026-02-08",
+          "sha256": "6360fd275ce66eba404695e714f39717f3e6f9bbb50ebe2bca5fef84684757a0",
+          "es_rectificacion": false,
+          "avisos": []
+        }
+      ],
+      "avisos": []
+    },
+    {
+      "mrn": "26ESY3834NB29S6VN4",
+      "nif": "46490500W",
+      "cliente": "Frutas Levante SL",
+      "estado": "COMPLETO",
+      "documentos_encontrados": [
+        "DUA",
+        "FACTURA",
+        "PACKING"
+      ],
+      "documentos_ausentes": {
+        "obligatorios": [],
+        "opcionales": [
+          "TRANSPORTE",
+          "CERTORIGEN"
+        ]
+      },
+      "documentos": [
+        {
+          "origen": "DUA_26ESY3834NB29S6VN4_20260530_46490500W.txt",
+          "tipo": "DUA",
+          "mrn": "26ESY3834NB29S6VN4",
+          "nif": "46490500W",
+          "cliente": "Frutas Levante SL",
+          "fecha": "2026-05-30",
+          "sha256": "608cd7c2ec308f003bc1e02c231ee578580d012a4e4903094f8f65d2feaeaa79",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "FACTURA_26ESY3834NB29S6VN4_20260530_46490500W.txt",
+          "tipo": "FACTURA",
+          "mrn": "26ESY3834NB29S6VN4",
+          "nif": "46490500W",
+          "cliente": "Frutas Levante SL",
+          "fecha": "2026-05-30",
+          "sha256": "047ad41f2eed6d6f3fbe65ac32d292e529739276fae65d0d22ed9976ab5b64f7",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "PACKING_26ESY3834NB29S6VN4_20260530_46490500W.txt",
+          "tipo": "PACKING",
+          "mrn": "26ESY3834NB29S6VN4",
+          "nif": "46490500W",
+          "cliente": "Frutas Levante SL",
+          "fecha": "2026-05-30",
+          "sha256": "4b0e339d7daef9ba2390d0abda13232d46d4ea40b0f36496d8cefc0848e9d3d7",
+          "es_rectificacion": false,
+          "avisos": []
+        }
+      ],
+      "avisos": []
+    },
+    {
+      "mrn": "26ESZ73E9EAR21SU35",
+      "nif": "44582623K",
+      "cliente": "Congelados Atlantico SA",
+      "estado": "INCOMPLETO",
+      "documentos_encontrados": [
+        "DUA",
+        "PACKING",
+        "TRANSPORTE"
+      ],
+      "documentos_ausentes": {
+        "obligatorios": [
+          "FACTURA"
+        ],
+        "opcionales": [
+          "CERTORIGEN"
+        ]
+      },
+      "documentos": [
+        {
+          "origen": "DUA_26ESZ73E9EAR21SU35_20260416_44582623K.txt",
+          "tipo": "DUA",
+          "mrn": "26ESZ73E9EAR21SU35",
+          "nif": "44582623K",
+          "cliente": "Congelados Atlantico SA",
+          "fecha": "2026-04-16",
+          "sha256": "90b1637d299135592bfbdf4c4fa713ba9ce744c3b668d53348d09afbf91a3717",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "PACKING_26ESZ73E9EAR21SU35_20260416_44582623K.txt",
+          "tipo": "PACKING",
+          "mrn": "26ESZ73E9EAR21SU35",
+          "nif": "44582623K",
+          "cliente": "Congelados Atlantico SA",
+          "fecha": "2026-04-16",
+          "sha256": "29d5fe6a5d93e4cf3449da22f3a14893f6ec35c83f9b265f6bf75571623a9698",
+          "es_rectificacion": false,
+          "avisos": []
+        },
+        {
+          "origen": "CMR_26ESZ73E9EAR21SU35_20260416_44582623K.txt",
+          "tipo": "TRANSPORTE",
+          "mrn": "26ESZ73E9EAR21SU35",
+          "nif": "44582623K",
+          "cliente": "Congelados Atlantico SA",
+          "fecha": "2026-04-16",
+          "sha256": "c0301ea5a6937010749af2a4472d63ae8911481f670f229930a85bcf716e9717",
+          "es_rectificacion": false,
+          "avisos": [
+            {
+              "codigo": "ALIAS_TIPO",
+              "detalle": "El nombre usa el alias 'CMR' para TRANSPORTE.",
+              "severidad": "info"
+            }
+          ]
+        }
+      ],
+      "avisos": []
+    }
+  ],
+  "incidencias": [
+    {
+      "fichero": ".DS_Store",
+      "motivo": "artefacto_sistema",
+      "problema": "Artefacto del sistema de ficheros o temporal de ofimatica.",
+      "decision": "No se intenta interpretar; se aparta sin analizar.",
+      "mrn": null,
+      "tipo": null,
+      "sugerencia": null
+    },
+    {
+      "fichero": "~$factura.tmp",
+      "motivo": "artefacto_sistema",
+      "problema": "Artefacto del sistema de ficheros o temporal de ofimatica.",
+      "decision": "No se intenta interpretar; se aparta sin analizar.",
+      "mrn": null,
+      "tipo": null,
+      "sugerencia": null
+    },
+    {
+      "fichero": "CERTORIGEN_26ES13YWB77MXATXKP_20260615_75502037Y.txt",
+      "motivo": "conflicto_cliente",
+      "problema": "Declara el MRN 26ESDX26CENWCZ1R5N, cuyo titular es 50693756P (Electro Import Iberia SL), pero identifica como cliente a 75502037Y (Quimicas Ebro SL).",
+      "decision": "No se incorpora al expediente: mezclar documentos de dos clientes es un fallo mas grave que un expediente incompleto.",
+      "mrn": "26ESDX26CENWCZ1R5N",
+      "tipo": "CERTORIGEN",
+      "sugerencia": null
+    },
+    {
+      "fichero": "FACTURA_26ESY3834NB29S6VN4_20260530_46490500W_copia.txt",
+      "motivo": "duplicado_exacto",
+      "problema": "Contenido byte a byte identico a FACTURA_26ESY3834NB29S6VN4_20260530_46490500W.txt (sha256 047ad41f2eed...).",
+      "decision": "Se conserva FACTURA_26ESY3834NB29S6VN4_20260530_46490500W.txt y se aparta esta copia.",
+      "mrn": "26ESY3834NB29S6VN4",
+      "tipo": "FACTURA",
+      "sugerencia": null
+    },
+    {
+      "fichero": "PACKING_26ESA70XSGJHX8HA9W_20260131_20989659C_copia.txt",
+      "motivo": "duplicado_exacto",
+      "problema": "Contenido byte a byte identico a PACKING_26ESA70XSGJHX8HA9W_20260131_20989659C.txt (sha256 9a850c41d028...).",
+      "decision": "Se conserva PACKING_26ESA70XSGJHX8HA9W_20260131_20989659C.txt y se aparta esta copia.",
+      "mrn": "26ESA70XSGJHX8HA9W",
+      "tipo": "PACKING",
+      "sugerencia": null
+    },
+    {
+      "fichero": "PACKING_26ESDX26CENWCZ1R5N_20260507_50693756P_copia.txt",
+      "motivo": "duplicado_exacto",
+      "problema": "Contenido byte a byte identico a PACKING_26ESDX26CENWCZ1R5N_20260507_50693756P.txt (sha256 e0531f86f23f...).",
+      "decision": "Se conserva PACKING_26ESDX26CENWCZ1R5N_20260507_50693756P.txt y se aparta esta copia.",
+      "mrn": "26ESDX26CENWCZ1R5N",
+      "tipo": "PACKING",
+      "sugerencia": null
+    },
+    {
+      "fichero": "vacio.txt",
+      "motivo": "fichero_vacio",
+      "problema": "El fichero no tiene contenido (0 bytes).",
+      "decision": "Se aparta: no hay nada que clasificar.",
+      "mrn": null,
+      "tipo": null,
+      "sugerencia": null
+    },
+    {
+      "fichero": "CERTORIGEN_26ESA70XSGJHX8HA9WZ_20260131_20989659C.txt",
+      "motivo": "mrn_invalido",
+      "problema": "El MRN '26ESA70XSGJHX8HA9WZ' (19 caracteres) no cumple el formato de 18 caracteres AAPP + 14 alfanumericos.",
+      "decision": "Se aparta sin reasignar: el MRN identifica el expediente y una fusion erronea contaminaria un expediente ajeno. Candidato mas proximo para revision manual: 26ESA70XSGJHX8HA9W.",
+      "mrn": "26ESA70XSGJHX8HA9WZ",
+      "tipo": "CERTORIGEN",
+      "sugerencia": "26ESA70XSGJHX8HA9W"
+    },
+    {
+      "fichero": "TRANSPORTE_26ESDX26CENWCZ1R5_20260507_50693756P.txt",
+      "motivo": "mrn_invalido",
+      "problema": "El MRN '26ESDX26CENWCZ1R5' (17 caracteres) no cumple el formato de 18 caracteres AAPP + 14 alfanumericos.",
+      "decision": "Se aparta sin reasignar: el MRN identifica el expediente y una fusion erronea contaminaria un expediente ajeno. Candidato mas proximo para revision manual: 26ESDX26CENWCZ1R5N.",
+      "mrn": "26ESDX26CENWCZ1R5",
+      "tipo": "TRANSPORTE",
+      "sugerencia": "26ESDX26CENWCZ1R5N"
+    },
+    {
+      "fichero": "TRANSPORTE_26ESHGDB-XVL72JJAP_20260412_44582623K.txt",
+      "motivo": "mrn_invalido",
+      "problema": "El MRN '26ESHGDB-XVL72JJAP' (18 caracteres) no cumple el formato de 18 caracteres AAPP + 14 alfanumericos.",
+      "decision": "Se aparta sin reasignar: el MRN identifica el expediente y una fusion erronea contaminaria un expediente ajeno. Candidato mas proximo para revision manual: 26ESHGDBTXVL72JJAP.",
+      "mrn": "26ESHGDB-XVL72JJAP",
+      "tipo": "TRANSPORTE",
+      "sugerencia": "26ESHGDBTXVL72JJAP"
+    },
+    {
+      "fichero": "notas_reunion.txt",
+      "motivo": "sin_estructura",
+      "problema": "El contenido no expone los campos minimos TIPO, MRN, NIF-CLIENTE (claves encontradas: ninguna).",
+      "decision": "Se aparta: no es un documento del expediente clasificable.",
+      "mrn": null,
+      "tipo": null,
+      "sugerencia": null
+    },
+    {
+      "fichero": "DUA_26ES1XMXPFFDZN97KD_20260521_12898185S.txt",
+      "motivo": "version_superada",
+      "problema": "Existe una version posterior del mismo DUA marcada como rectificacion: DUA_26ES1XMXPFFDZN97KD_20260521_12898185S (1).txt.",
+      "decision": "Se archiva la version rectificada y esta se conserva en descartes como historico.",
+      "mrn": "26ES1XMXPFFDZN97KD",
+      "tipo": "DUA",
+      "sugerencia": null
+    },
+    {
+      "fichero": "FACTURA_26ESSD385Y6CJ6F92R_20260123_46490500W.txt",
+      "motivo": "version_superada",
+      "problema": "Existe una version posterior del mismo FACTURA marcada como rectificacion: FACTURA_26ESSD385Y6CJ6F92R_20260123_46490500W (1).txt.",
+      "decision": "Se archiva la version rectificada y esta se conserva en descartes como historico.",
+      "mrn": "26ESSD385Y6CJ6F92R",
+      "tipo": "FACTURA",
+      "sugerencia": null
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+[project]
+name = "expedientes"
+version = "1.0.0"
+description = "Clasificador de documentos aduaneros en expedientes por cliente y MRN"
+requires-python = ">=3.10"
+dependencies = []  # sin dependencias en tiempo de ejecucion
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+expedientes = "expedientes.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q --strict-markers"
+
+[tool.setuptools]
+packages = ["expedientes"]
