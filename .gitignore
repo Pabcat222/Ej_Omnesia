@@ -8,3 +8,4 @@ __pycache__/
 # que es uno de los entregables de la prueba.
 salida/*
 !salida/informes/
+.DS_Store
